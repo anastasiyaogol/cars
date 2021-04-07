@@ -1,0 +1,388 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+.body {
+    background:url(../img/bmw.jpg)no-repeat ;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.body_profile {
+    background:url(../img/bmw.jpg)no-repeat ;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.antialiased {
+    background: red;
+}
+.details_wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-areas:
+    "header header"
+    "main main"
+    "footer footer"
+;
+    grid-gap: 1rem;
+
+> * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background: #e2deed;
+    border-radius: 5px;
+    font-weight: bold;
+}
+}
+
+.details_body {
+    min-height: 800px;
+    background:url(../img/bmw2.png)no-repeat ;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.details_card {
+    border-radius: 20px 20px 20px 20px;
+    padding: 20px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    background:#fff;
+    display: flex;
+    flex-direction: row;
+}
+.auto_description {
+    font-family:  Snell Roundhand, cursive;
+}
+.details_flex {
+    display: flex;
+}
+.error {
+    background: #ffffff;
+    opacity: 0.5;
+    border:5px;
+    border-color: #8b0000;
+    border-radius: 20px 20px 20px 20px;
+    color: #8b0000;
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+    font-size: 30px;
+}
+.details {
+    display: flex;
+    background: #8b0000;
+    color: #ffffff;
+    margin: auto;
+    margin-bottom: 5px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 5px 15px 5px 15px;
+    align-content: center;
+    align-self: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:  Snell Roundhand, cursive;
+}
+.login_blade {
+    background:url(../img/bmw.jpg)no-repeat !important;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+}
+.card {
+    padding: 20px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    background:#fff;
+    display: flex;
+    flex-direction: row;
+}
+.caption {
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+}
+.price {
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+}
+.car_photo {
+    max-width: 300px;
+    max-height: 300px;
+    margin-right: 10px;
+}
+.options {
+    display: flex;
+    flex-direction: row;
+}
+.icon {
+    max-height: 15px;
+    max-width: 15px;
+    margin: 5px;
+}
+.min-h-screen {
+    background: url(../img/bmw2.png)no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.icon_address {
+    max-height: 15px;
+    max-width: 15px;
+    color: #ffffff;
+}
+.short_description {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+.description_col_1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+}
+.description_col_2 {
+    display: flex;
+    flex-direction: column;
+}
+.wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-areas:
+    "header header"
+    "sidebar main"
+    "footer footer"
+;
+    grid-gap: 1rem;
+
+> * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background: #e2deed;
+    border-radius: 5px;
+    font-weight: bold;
+}
+}
+.wrapper_profile {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-areas:
+    "sidebar main"
+    "footer footer"
+;
+    grid-gap: 1rem;
+
+> * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background: #e2deed;
+    border-radius: 5px;
+    font-weight: bold;
+}
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.site_name {
+    font-size: 40px;
+    font-weight: bold;
+    color: #8b0000;
+}
+.menu {
+    margin-right: 50px;
+    color: #7a5611;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Snell Roundhand, cursive;
+}
+.information {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.address {
+    display: flex;
+    flex-direction: column;
+}
+.touch {
+    color: #7a5611;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Snell Roundhand, cursive;
+}
+.address_cont {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row;
+}
+.choice::placeholder {
+    font-style: italic;
+    color: #000000;
+}
+.choice {
+    border-radius: 20px 20px 20px 20px;
+    outline:none;
+    border-color: #8b0000;
+}
+.choice_text {
+    color: #8b0000;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Snell Roundhand, cursive;
+}
+.choice_block {
+    margin-bottom: 25px;
+}
+.choice_form {
+    margin-top: 100px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 20px;
+    background: #ffffff;
+    opacity: 0.5;
+}
+button,button:active,button:focus{
+    outline: none !important;
+}
+.choice_btn {
+    border: none;
+    outline: none;
+    margin: auto;
+    border-radius: 20px 20px 20px 20px;
+    max-width: 200px;
+    min-width: 150px;
+    min-height: 50px;
+    align-content: center;
+    align-self: center;
+    background: #8b0000;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:  Snell Roundhand, cursive;
+}
+.auto_not_found {
+    margin-top: 300px;
+    background: #ffffff;
+    opacity: 0.5;
+    color: #8b0000;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Snell Roundhand, cursive;
+}
+.btn_block {
+    display: flex;
+}
+.add_wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-areas:
+    "header header"
+    "main main"
+    "footer footer"
+;
+    grid-gap: 1rem;
+
+> * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background: #e2deed;
+    border-radius: 5px;
+    font-weight: bold;
+}
+}
+.add_body {
+    background:url(../img/audi.png)no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.add_auto_text {
+    font-size: 30px;
+    font-weight: bold;
+    color: #8b0000;
+    background: #ffffff;
+    opacity: 0.5;
+    border-radius: 20px 20px 20px 20px;
+}
+.add_auto {
+    border-radius: 20px 20px 20px 20px;
+    width: 98%;
+    height: 40px;
+    outline: none;
+    font-family: Snell Roundhand, cursive;
+    font-size: 20px;
+}
+.add_auto_textarea {
+    border-radius: 20px 20px 20px 20px;
+    width: 98%;
+    height: 150px;
+    outline: none;
+    font-family: Snell Roundhand, cursive;
+    font-size: 20px;
+}
+.add_auto_btn {
+    border-radius: 20px 20px 20px 20px;
+    width: 98%;
+    height: 40px;
+    outline: none;
+    font-family: Snell Roundhand, cursive;
+    font-size: 20px;
+    background: #8b0000;
+    color: #ffffff;
+}
+header {
+    grid-area: header;
+}
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+main {
+    grid-column: main;
+}
+
+aside {
+    grid-row: sidebar;
+}
+
+footer {
+    grid-column: footer;
+}
+
+aside,
+main {
+    min-height: 300px;
+}
+
+body {
+    background: #fafafa;
+    line-height: 1.5;
+    font-family: 'Arial';
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
